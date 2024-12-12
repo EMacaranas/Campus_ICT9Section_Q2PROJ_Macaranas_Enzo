@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q2Project</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h3>Krunchy</h3>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroSlider">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-brand">Order Online</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO KRUNCHY</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Char-grilled and flavor-filled</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO KRUNCHY</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <img src="https://raisingchildren.net.au/__data/assets/image/0035/48788/healthy-food-school-age-childrennarrow.jpg">
+                </div>
+                <div class="col-lg-5">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Krunchy is a lively, modern eatery celebrating all things crispy and crunchy. </p>
+                    <p>With a cozy-industrial vibe, bold accents, and upbeat energy, it’s the perfect spot for casual dining, family meals, or satisfying your crunch cravings.</p>
+                    <a href="#" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>We have a wide range of foods from breakfast, Lunch to Dinner!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+                
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+               
+
+                <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/10/14/0/FNK_TORTILLA_BREAKFAST_WRAP_H_f_s4x3.jpg.rend.hgtvcom.791.594.suffix/1602696910893.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5 class="mt-1 mb-2"><a href="#">Tortilla Breakfast Wrap</a></h5>
+                                    <p class="small">Inspired by the Egg and Cheese Bread Omelet, we made a complete breakfast wrap--tortilla, eggs, spinach, cheese and ham included--entirely in one skillet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/12/21/0/FN_Oatmeal-Glazed-Breakfast-Cake-H1_s4x3.jpg.rend.hgtvcom.791.594.suffix/1608578899427.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5 class="mt-1 mb-2"><a href="#">Oatmeal Glazed Breakfast Cake</a></h5>
+                                    <p class="small">flavored with cinnamon and topped with a nutty glaze. It’s a great way to clean out the pantry and prep breakfast for a few days all at once</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/06/23/0/FNK_Cold-Brew-Iced-Coffee-H_s4x3.jpg.rend.hgtvcom.791.594.suffix/1592939625804.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                  
+                                    <h5 class="mt-1 mb-2"><a href="#">Cold Brew Iced Coffee</a></h5>
+                                    <p class="small">This recipe makes just two servings of cold brew, so if you're new to the method, it will be a good test batch to see exactly how strong you want your steep to be.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/7/27/0/BW2A05_pancakes_s4x3.jpg.rend.hgtvcom.791.594.suffix/1382375822579.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                    
+                                    <h5 class="mt-1 mb-2"><a href="#">Pancakes</a></h5>
+                                    <p class="small">The One and only. The Ultimate breakfast.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/01/28/0/FNK_MEXICAN-CHICKEN-SOUP-H_s4x3.jpg.rend.hgtvcom.791.594.suffix/1580240791141.jpeg">
+                                <div class="menu-item-content p-4">
+                                   
+                                    <h5 class="mt-1 mb-2"><a href="#">Chicken Soup</a></h5>
+                                    <p class="small">Soup makes a great lunch because you can make it ahead and reheat it whenever you're ready to eat</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/1/9/0/FNK_pizza_s4x3.jpg.rend.hgtvcom.791.594.suffix/1424927507760.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+
+                                    <h5 class="mt-1 mb-2"><a href="#">Chicken Pizza</a></h5>
+                                    <p class="small">This pizza is totally doable at lunch time, thanks to refrigerated pizza dough and pre-cooked rotisserie chicken</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/03/08/0/FNP_Weidner-Corn-and-Mushroom-Ramen-Bowls_s4x3.jpg.rend.hgtvcom.791.594.suffix/1583702640954.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+
+                                    <h5 class="mt-1 mb-2"><a href="#">Corn and Mushroom Ramen Bowls</a></h5>
+                                    <p class="small">Turn your usual instant slurp into something a little heartier</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/06/08/0/FNM_070120-Italian-Deli-Pasta-Salad_s4x3.jpg.rend.hgtvcom.791.594.suffix/1591625102531.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+
+                                    <h5 class="mt-1 mb-2"><a href="#">Italian Deli Pasta Salad</a></h5>
+                                    <p class="small">This speedy pasta salad brings all your deli counter favorites (salami, cheese and giardiniera)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2004/4/13/0/tm1d37_spaghetti_meatballs.jpg.rend.hgtvcom.791.594.suffix/1485880375188.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                   
+                                    <h5 class="mt-1 mb-2"><a href="#">Spaghetti and Meatballs</a></h5>
+                                    <p class="small">A classic Italian comfort dish featuring tender spaghetti topped with juicy, flavorful meatballs and rich tomato sauce</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/01/28/0/FNK_CURRIED-CHICKEN-THIGHS-H_s4x3.jpg.rend.hgtvcom.791.594.suffix/1580240601206.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                  
+                                    <h5 class="mt-1 mb-2"><a href="#">Curried Chicken Thighs (W/Rice)</a></h5>
+                                    <p class="small">A handful of spices and aromatic vegetables give this quick chicken dish plenty of flavor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/01/28/0/FNK_ROAST_BEEF_TENDERLOIN_W_MUSHROOMS_H_s4x3.jpg.rend.hgtvcom.791.594.suffix/1580239311591.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+
+                                    <h5 class="mt-1 mb-2"><a href="#">Roast Beef Tenderloin</a></h5>
+                                    <p class="small">a center-cut piece of tenderloin with an even thickness</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/9/4/2/FNM_100112-Ina-Garten-Easty-Tomato-Soup-and-Grilled-Cheese-Croutons-Recipe_s4x3.jpg.rend.hgtvcom.791.594.suffix/1382541629638.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+
+                                    <h5 class="mt-1 mb-2"><a href="#">Tomato Soup and Grilled Cheese</a></h5>
+                                    <p class="small">Grilled cheese and tomato soup is a classic combination that kids love.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Book Your Table</h1>
+                    
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Meesage"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-cover">
+        <div class="footer-top">
+           <h3 style="color: white; text-align: center;">Made By: Enzo Macaranas</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
